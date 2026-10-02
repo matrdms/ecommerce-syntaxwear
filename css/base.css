@@ -1,16 +1,16 @@
 /* base.css */
-body{
+body {
     font-family: var(--fonte-principal);
     color: #333333;
 }
 
-main{
-    padding: 2.5rem 0;
+main {
+    padding: 2.5rem 0 2.5rem;
     max-width: 1360px;
     margin: 0 auto;
 }
 
-.btn{
+.btn {
     font-size: 1.25rem;
     width: 161px;
     height: 48px;
@@ -22,19 +22,26 @@ main{
     transition: background-color 0.3s, border 0.3s;
 }
 
-.btn-outline{
+.btn-outline {
     background-color: transparent;
     border: 2px solid #ffffff;
     line-height: 23px;
 }
 
-.btn-filled{
+.btn-filled {
     background-color: #ffffff;
     color: #6329a2;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #6329a2;
     color: #ffffff;
     border-color: #6329a2;
+}
+
+
+.footer-copy {
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 20px 0
 }
